@@ -8,7 +8,7 @@
     <head>
         <title>Welcome</title>
     </head>
-    <body>
+    <body id="body">
     <h1 id="hello"> Hello </h1>
 
     <div align="center">
@@ -24,11 +24,12 @@
                     <td><input type="checkbox" name="options" value="1"/></td>
                 </tr>
                 <tr>
-                    <td><fmt:message key="value1"/></td>
+                    <td><fmt:message key="value2"/></td>
                     <td><input type="checkbox" name="options" value="2"/></td>
                 </tr>
                 <tr>
-                    <td><input type="submit" name="Send" value="Submit"/></td>
+                    <td><input type="submit" name="Send" value=
+                            <fmt:message key="submit"/>/></td>
                 </tr>
             </table>
 

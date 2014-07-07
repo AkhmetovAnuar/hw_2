@@ -11,7 +11,7 @@
 
     <servlet>
         <servlet-name>ResultServlet</servlet-name>
-        <servlet-class>servlet.ResultServlet</servlet-class>
+        <servlet-class>com.epam.akhmetov.servlet.ResultServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ResultServlet</servlet-name>
